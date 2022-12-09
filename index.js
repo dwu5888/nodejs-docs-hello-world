@@ -12,7 +12,7 @@ const pkg = require('./package.json');
 
 
 // App constants
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 1337;
 const apiPrefix = '/api';
 
 // Store data in-memory, not suited for production use!
